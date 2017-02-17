@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<img id="happy" src="assets/topdiv.png">
+<head>
+	<title>MasterLocksmith</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css.map">
+	<link rel="stylesheet" href="css/bootstrap.theme.css">
+	<link rel="stylesheet" href="css/bootstrap.theme.css.map">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css.map">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css.map">
+
+
+	
+<ul class="nav nav-pills">
+
+  <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+  <li role="presentation"><a href="services.html"><span class="glyphicon glyphicon-wrench"></span> Services</a></li>
+  <li role="presentation"><a href="area.html"><span class="glyphicon glyphicon-briefcase"></span> Area</a></li>
+  <li role="presentation"><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
+
+</ul>
+
+</head>
+
+
+
+
+<body>
+
+
+
+<div id="part1"><p id="welcome" style="color: white;">Welcome To MasterLock Services</p></div>
+
+ <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="assets/1.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <img src="assets/2.png" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <img src="assets/3.png" style="width:100%">
+    
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+<div id="foot1" style="color: white;"><span class="glyphicon glyphicon-copyright-mark"></span>Copyright Bruno Creation</div>
+<div id="part5"><p id="click" style="color: white;">Click any Service</p></div>
+<section>
+<div class='img-container'>
+<a href="services.html#car"><img id="img6" src="assets/6.jpg" style="float: left;"></a>
+<a href="services.html#house"><img id="img7" src="assets/7.jpg" style="float: left;"></a>
+<a href="services.html#safe"><img id="img5" src="assets/5.jpg" style="float: left;" style="clear: both;"></a>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+
+
+
+<footer>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/npm.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+</footer>
+</html>
